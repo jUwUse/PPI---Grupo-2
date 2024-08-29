@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: auto;
+}
+body {
+    width: 100%;
+    height: 650px;
+    background: linear-gradient(-60deg, rgb(78, 3, 78) 50%, rgb(134, 30, 134) 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ p {
+    font-size: 20px;
+    text-align: center;
+ }
+
+.quadrado {
+    position: relative;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%);
+    width: 450px;
+    height: auto;
+    padding: 16px;
+    color: #f0ffff;
+    background-color: #2C2C2D;
+    border: 3px white solid;
+    border-radius: 30px 5px 30px 30px;
+}
+
+.lc {
+    text-align: center;
+}
+
+#SignUpFormSetor label,
+#SignUpFormProfessor label {
+    position: relative;
+    text-align: start;
+    left: 10px 10px;
+}
+
+#SignUpFormProfessor .campo {
+    position: relative;
+    left: 10px;
+    border-radius: 15px;
+    border: 2px #fff solid;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    width: 350px;
+    height: 30px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#SignUpFormSetor .campo {
+    position: relative;
+    left: 10px;
+    border-radius: 15px;
+    border: 2px #fff solid;
+    background-color: transparent;
+    color: white;
+    text-align: right;
+    width: 350px;
+    height: 30px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.botaoum {
+    position: relative;
+    border: 2px #fff solid;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #676B65;
+    padding: 5px 8px;
+    color: white;
+    left: 870px; 
+    top: 50px; 
+    font-size: 18px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    width: 150px;
+    height: 55px;
+}
+
+.botaoum.clicar {
+    background-color: #2C2C2D;
+    top: 113px;
+}
+
+.botaoum.descer {
+    top: 200px;
+}
+
+.botaoum.clicar::before {
+    content: "";
+    position: absolute;
+    width: 8px; 
+    height: 51px; 
+    background-color: #2C2C2D;
+    top: 50%;
+    left: 0; 
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.botaodois {
+    position: relative;
+    border: 2px #fff solid;
+    border-radius: 20px;
+    background-color: #676B65;
+    padding: 5px 8px;
+    color: white;
+    left: 708px; 
+    top: 200px; 
+    font-size: 18px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    width: 150px;
+    height: 55px;
+}
+
+.botaodois.clicar {
+    background-color: #2C2C2D;
+    top: 113px;
+}
+
+.botaodois.clicar::before {
+    content: "";
+    position: absolute;
+    width: 50px; 
+    height: 51px; 
+    background-color: #2C2C2D;
+    top: 50%;
+    left: 0; 
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+
+.botaodois.descer {
+    top: 200px; 
+}
+
+.botao {
+    position: relative;
+    border: 2px #fff solid;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 5px 8px;
+    color: white;
+    left: 150px; 
+    top: 3px; 
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#SignUpFormProfessor .campo, 
+#SignUpFormSetor .campo {
+    text-align: left;
+}
+
+.erro {
+    padding: 10px;
+    color: red;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+.mensagem {
+    padding: 10px;
+    color: rgb(50, 173, 50);
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 0px;
+    text-align: center;
+}
